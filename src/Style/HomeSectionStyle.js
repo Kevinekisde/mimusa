@@ -76,6 +76,7 @@ button{
     border-bottom-right-radius: 15px;
     font-size:16px;
     border:none;
+    cursor:pointer;
 }
 
 .create{
