@@ -12,7 +12,9 @@ const LighTheme ={
     buttonBackground:"white",
     buttonRedHoverNone:"inset 0 0 0 0 #0039ff",
     buttonRedHover:"inset 282px 0 0 0 #0039ff",
-    artist:"white"
+    artist:"white",
+    arrow:"1px solid #011C44;",
+    span:"#d6302a"
 
 }
 
@@ -30,7 +32,9 @@ const DarkTheme = {
     buttonBackground:"#01285d",
     buttonRedHoverNone:"inset 0 0 0 0 #0039ff",
     buttonRedHover:"inset 282px 0 0 0 #0039ff",
-    artist:"black"
+    artist:"black",
+    arrow:"1px solid #FFFFFF",
+    span:"#FFFFFF",
 
 }
 

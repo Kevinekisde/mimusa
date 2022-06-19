@@ -21,8 +21,8 @@ const SectionParticipa = () => {
             </ImageContainer>
             <TextContainer>
               
-              <h1>PARTICIPA EN NUESTRO</h1>
-              <h2>DRAFT DE ARTISTAS</h2>
+              <h1 className="title">PARTICIPA EN NUESTRO</h1>
+              <h1 className="subtitle">DRAFT DE ARTISTAS</h1>
             </TextContainer>
             <button className="buttonRed">INSCRIBETE</button>
         </InfoContainer>

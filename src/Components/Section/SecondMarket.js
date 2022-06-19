@@ -21,13 +21,13 @@ const SecondMarket = () => {
                         <p>I understand I can unsubscribe at any time. Privacy Policy</p>
                     </CheckboxContainer>
                 </TextContainer>
-                <ImageContainer>
                 <AnimationOnScroll animateIn="animate__fadeInUp">
+                <ImageContainer>
                     <img src={RedPlayer}/>
                     <img src={YellowPlayer}/>
                     <img src={RedPlayer}/>
-                </AnimationOnScroll>
                 </ImageContainer>
+                </AnimationOnScroll>
             </InfoContainer>
         </Container>
     )

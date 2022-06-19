@@ -19,13 +19,13 @@ align-items:start;
 
 
 h1{
-width:30%;
+width:100%;
 color:${({theme}) => theme.title};
 font-style: normal;
 font-weight: 800;
 font-size: 28px;
 line-height: 120%;
-letter-spacing:0.1em;
+letter-spacing:0.1em; 
     &:first-line{
     font-weight: 500;
     font-size: 16px;
@@ -61,26 +61,34 @@ gap:14%;
 position:relative;
 
 .arrowLeft{
-    color:white;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:${({theme})=> theme.title};
     position:absolute;
     width: 43px;
     height: 43px;
     left: -90px;
     top:150px;
     background:transparent;
-    border: 1px solid #FFFFFF;
+    border: ${({theme}) => theme.arrow};
     border-radius:50%;
     cursor:pointer;
 }
 .arrowRight{
-    color:white;
+    font-size:18px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:${({theme})=> theme.title};
     position:absolute;
     width: 43px;
     height: 43px;
     right:-35%;
     top:150px;
     background:transparent;
-    border: 1px solid #FFFFFF;
+    border: ${({theme}) => theme.arrow};
     border-radius:50%;
     cursor:pointer;
 

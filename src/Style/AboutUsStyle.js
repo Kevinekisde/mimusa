@@ -64,6 +64,10 @@ h2{
     font-size: 30px;
     line-height: 120%;
     color:${({theme}) => theme.title};
+
+    span{
+        color:${({theme}) => theme.span};
+    }
 }
 
 p{

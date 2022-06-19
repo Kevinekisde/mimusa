@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import LilliardBack from '../Assets/lilliardback.png'
+
 
 
 export const Container = styled.div`
@@ -31,7 +31,7 @@ gap:70px;
 `
 
 export const TextContainer = styled.div`
-width:50%;
+width:53%;
 
 h1{
     width:70%;
@@ -40,23 +40,23 @@ h1{
     font-size: 47px;
     text-align:justify;
     line-height: 120%;
-    color: #FFFFFF;
+    color: ${({theme}) => theme.title};
     span{
         color:#d7302a;
     }
 }
 p{
-    width:80%;
+    width:70%;
     margin-top: 10px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 17px;
     line-height: 120%;
     letter-spacing: 0.05em;
-    color: #FFFFFF;
+    color: ${({theme}) => theme.title};
 
     span{
-        font-weight: 800;
+        font-weight: 10000;
     }
 
 }

@@ -37,7 +37,7 @@ h2{
 .price{
     position:absolute;
     left:10%;
-    top:83%;
+    top:80%;
     color:${({theme}) => theme.parrafo};
     font-weight: 800;
     font-size: 16px;
@@ -48,7 +48,7 @@ h2{
 .transform{
     position:absolute;
     left:10%;
-    top:89%;
+    top:85%;
     color:${({theme}) => theme.parrafo};
     font-weight: 400;
     font-size: 14px;

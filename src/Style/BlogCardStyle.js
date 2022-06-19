@@ -18,7 +18,7 @@ img{
 h2{
     width:90%;
     position:absolute;
-    top:63%;
+    top:60%;
     left:10%;
     z-index:2;
     font-weight: 600;
