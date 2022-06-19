@@ -29,19 +29,19 @@ const Artists = () => {
                     <h1 className="artist">Drake</h1>
                 </SplideSlide>
                 <SplideSlide>
-                    <h1 className="artist">Drake</h1>
+                    <h1 className="artist">Kevin</h1>
                 </SplideSlide>
                 <SplideSlide>
-                    <h1 className="artist">Drake</h1>
+                    <h1 className="artist">Ignacio</h1>
                 </SplideSlide>
                 <SplideSlide>
-                    <h1 className="artist">Drake</h1>
+                    <h1 className="artist">Leiva</h1>
                 </SplideSlide>
                 <SplideSlide>
-                    <h1 className="artist">Drake</h1>
+                    <h1 className="artist">Puga</h1>
                 </SplideSlide>
                 <SplideSlide>
-                    <h1 className="artist">Drake</h1>
+                    <h1 className="artist">Catalina</h1>
                 </SplideSlide>
             </Splide>
         </Container>
