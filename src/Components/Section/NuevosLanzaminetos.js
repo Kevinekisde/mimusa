@@ -113,7 +113,7 @@ const NuevosLanzaminetos = () => {
             name={card.name}
             price={card.price}
             transform={card.transform}
-            coleciones={true}
+            coleccion={true}
           />
          ))}
           <button onClick={siguientePaginaColeccion} class="arrowRight"><FontAwesomeIcon icon={faArrowRight}></FontAwesomeIcon></button>
